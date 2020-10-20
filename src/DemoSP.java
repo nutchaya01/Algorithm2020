@@ -4,7 +4,7 @@ public class DemoSP {
 	public static void main(String[] args) {
 		EdgeWeightedDigraph g = new EdgeWeightedDigraph(4);
 		
-		g.addEdge(new DirectedEdge(0, 1, 1.0)); // 0 -> 1 lenght 1.0
+		g.addEdge(new DirectedEdge(0, 1, 1.0)); // 0 -> 1 length 1.0
 		g.addEdge(new DirectedEdge(2, 1, 2.0));
 		g.addEdge(new DirectedEdge(2, 0, 2.5));
 		g.addEdge(new DirectedEdge(3, 2, 1.5));
